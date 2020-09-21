@@ -26,15 +26,25 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+.forEach does not return a new array.
+.map returns a new array.
+both of them go through each element in an arrray
 
 2. Explain the difference between a callback and a higher order function.
+hof is a function that accepts another function as a parameter
+callback function is a function that you pass in another function as an argumnet
 
 3. What is closure?
+closure is when an inside variable/function will access variables outside of their local scope
 
 4. Describe the four rules of the 'this' keyword.
+a. global scope refers to the window or the whole of js
+b. Implicit binding refers to the object to the left of the keyword this
+c. new binding refers to the object that is created from a constructor using the new keyword
+d. explicit binding is when using .call /.apply /.bind to refer to another object or object's method
 
 5. Why do we need super() in an extended class?
-
+super would be needed so that you would be able to inherit the properties of the parent class
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
